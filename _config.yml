@@ -1,6 +1,12 @@
 title: Minimal theme
 logo: /assets/img/Profile_DP.jpg
-description: Minimal is a theme for GitHub Pages.
-show_downloads: false
-google_analytics:
-theme: jekyll-theme-minimal
+description:
+  <p align="center">
+  <a href="pdf/resume.pdf">Resume</a> |
+  <a href="www.linkedin.com/in/artik-gupta-76b71615b">LinkedIn</a> |
+  <a href="https://github.com/artik-gupta">GitHub</a>
+  
+  <br>   
+  I'm working on Data Science, Big Data, Spark, Machine learning & NLP related problems.
+  <br>
+  </p>
