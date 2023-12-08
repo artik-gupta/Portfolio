@@ -12,7 +12,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 # Projects Done
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+This page is to showcase all the projects done. It includes Data Science and Data Engineering projects. 
 
 ## Data Science Projects
 
