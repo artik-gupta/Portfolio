@@ -20,7 +20,7 @@ Tech stack: Python · OpenAI SDK · FastAPI · async I/O · logging · experimen
 ---
 
 ### Stock Price Prediction — Sentiment-Driven Directional Forecasting
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/artik-gupta/Thesis_Stock_Price.git)
+[![View on GitHub](https://github.com/artik-gupta/Stock-Price-Prediction.git)
 
 > Predicts stock price direction using sentiment features extracted from news headlines; compares sequence and tree-based models.
 
