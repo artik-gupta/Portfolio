@@ -35,7 +35,7 @@ Tech stack: Python · pandas · NumPy · scikit-learn · XGBoost · TensorFlow/K
 
 ---
 
-### Exploratory Data Analysis (IIIT Bangalore)
+### Exploratory Data Analysis
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/artik-gupta/EDA.git)
 
 > Course project focused on comprehensive exploratory data analysis.
