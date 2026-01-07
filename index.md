@@ -1,41 +1,48 @@
-# Projects Done
+# Data Science Projects
 
-This page is to showcase all the projects done. It includes Data Science and Data Engineering projects. 
+A curated collection of data science and agentic AI projects, including reproducible experiments, model pipelines, and tooling for automation and analysis.
 
-## Data Science Projects
+---
 
+### Agentic AI — Custom Agent for Task Selection and Execution
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/artik-gupta/Agentic_Ai.git)
 
-<center><img src="images/fraud_detection.jpg"/></center>
+> Autonomous agents that automate data collection, experiment orchestration, and decision-making using the OpenAI SDK. Includes detailed interaction traces and logs for analysis.
 
-### Logistic Regression: Lead Classification
+Key highlights:
+- Multi-step agent workflows for preprocessing, model suggestion, and result interpretation
+- Tool and API integrations for data ingestion, experiment execution, and persistent logging
+- Prompting strategies and evaluation metrics to measure agent behavior and reliability
+- Reproducible experiments with detailed traces for debugging and analysis
 
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/artik-gupta/Lead-Score-Case-study-assignment.git)
-> This is a project done in the Data Science Post graduation course of IIIT Banglore.
+Tech stack: Python · OpenAI SDK · FastAPI · async I/O · logging · experiment tracking
 
-In this project, a Logistic Regression model was trained and tested to classify whether a lead is a potential customer or not. 
-Steps include:
-1. A data set was taken and preprocessing has been done to clean and further improve the data. Various redundant columns have been removed and null values have been filled as per business understanding.
-2. EDA including univariate and bivariate analysis.
-3. Feature engineering.
-4. RFE technique is used to eliminate the redundant feature having little importance.
-5. Statsmodel library is used to train the model.
-6. Finally I got around 83% accuracy in the test set and 78% on the train set.
+---
 
+### Stock Price Prediction — Sentiment-Driven Directional Forecasting
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/artik-gupta/Thesis_Stock_Price.git)
 
-### Exploratory Data Analysis
+> Predicts stock price direction using sentiment features extracted from news headlines; compares sequence and tree-based models.
 
+Key highlights:
+- Headline scraping, cleaning, tokenization, and lemmatization
+- Sentiment feature engineering (VADER and transformer-based scores, rolling aggregates)
+- Model comparison: LSTM (sequence) vs XGBoost (tree-based) with hyperparameter tuning and cross-validation
+- Evaluation: directional accuracy, precision/recall, confusion matrices, and backtesting
+- Reproducible notebooks with visualizations of predictions vs actuals
+
+Tech stack: Python · pandas · NumPy · scikit-learn · XGBoost · TensorFlow/Keras · NLTK/spaCy/VADER · BeautifulSoup/requests · matplotlib/plotly
+
+---
+
+### Exploratory Data Analysis (IIIT Bangalore)
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/artik-gupta/EDA.git)
-> This is a project done in the Data Science Post graduation course of IIIT Banglore.
 
-In this project, an Exploratory data analysis has been done including univariate and bivariate analysis.
+> Course project focused on comprehensive exploratory data analysis.
 
+Key highlights:
+- Univariate and bivariate analysis with data cleaning and visualization
+- Feature distributions, correlation analysis, and initial modeling insights
+- Reproducible notebooks and visual summaries for stakeholders
 
-### Linear Regression: Customer prediction
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/artik-gupta/Linear-Regression-Project.git)
-> This is a project done in the Data Science Post graduation course of IIIT Banglore.
-
-In this project, a Linear Regression model was trained and tested to predict the number of customers by considering weather, season, holidays, and festivals.
-Steps include:
-1. The Statsmodel library is used to train the model. Various sets of features were being tried to reach an optimal feature set.
-2. Residual distribution followed a normal distribution and R2 value of 78% was achieved.
+Tech stack: Python · pandas · seaborn · matplotlib · Jupyter Notebooks
